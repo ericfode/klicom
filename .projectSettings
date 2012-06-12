@@ -6,6 +6,6 @@
 		<item value="" key="ocamlbuildProjectOtherFlags"/>
 		<item value="" key="ocamlbuildProjectCompilerFlags"/>
 		<item value="true" key="ocamlbuildGenerateTypeInfo"/>
-		<item value="" key="ocamlbuildProjectTargets"/>
+		<item value="lexer.ml,parser.ml,ast.byte,lexer.byte,parser.byte,token.byte,toplevel.byte,token.byte,myocamlbuild.byte" key="ocamlbuildProjectTargets"/>
 	</section>
 </section>
