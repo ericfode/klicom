@@ -9,7 +9,7 @@ let rec lex = parser
 	| [< ' ('0' .. '9' as c); stream >] ->
 		let buffer = Buffer.create 1 in
 		Buffer.add_char buffer c;
-		lex_ident buffer stream
+		lex_number buffer stream
 		
 	| [< ' ('#'); stream >] ->
 		lex_comment stream

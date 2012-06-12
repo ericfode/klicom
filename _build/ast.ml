@@ -1,6 +1,6 @@
 type expr =
 	| Number of float
-	| Varible of string
+	| Variable of string
 	| Binary of char * expr * expr
 	| Call of string * expr array
 
