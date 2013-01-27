@@ -2,7 +2,6 @@
  * Code Generation
  *===----------------------------------------------------------------------===*)
 
-print "THis is awesome."
 open Llvm
 
 exception Error of string
